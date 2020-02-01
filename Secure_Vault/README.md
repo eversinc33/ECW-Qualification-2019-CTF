@@ -103,7 +103,7 @@ for i in range(0,64):
 		if inject(payload): # if positive result, we found the next char of the flag
 			flag = flag + str(chr(c))
 				
-print 'Flag: '+flag+'}'</code></pre>
+print('Flag: '+flag+'}')
 ```
 And there is the flag
 
